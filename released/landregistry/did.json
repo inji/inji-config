@@ -1,14 +1,14 @@
 {
   "assertionMethod": [
-    "did:web:mosip.github.io:inji-config:released:landregistry"
+    "did:web:inji.github.io:inji-config:released:landregistry"
   ],
   "service": [],
-  "id": "did:web:mosip.github.io:inji-config:released:landregistry",
+  "id": "did:web:inji.github.io:inji-config:released:landregistry",
   "verificationMethod": [
     {
       "publicKeyMultibase": "z6MkmptH69FyoFxjg2BpwioTKL7AnEzRbHEgWykbqWR57ogQ",
-      "controller": "did:web:mosip.github.io:inji-config:released:landregistry",
-      "id": "did:web:mosip.github.io:inji-config:released:landregistry#FdI7ovbAlzWTTVcbKHAY42lXgh2dm7MmyvVEvkajuH8",
+      "controller": "did:web:inji.github.io:inji-config:released:landregistry",
+      "id": "did:web:inji.github.io:inji-config:released:landregistry#FdI7ovbAlzWTTVcbKHAY42lXgh2dm7MmyvVEvkajuH8",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
@@ -18,6 +18,6 @@
   ],
   "alsoKnownAs": [],
   "authentication": [
-    "did:web:mosip.github.io:inji-config:released:landregistry"
+    "did:web:inji.github.io:inji-config:released:landregistry"
   ]
 }

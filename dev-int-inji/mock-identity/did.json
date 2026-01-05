@@ -1,28 +1,28 @@
 {
   "assertionMethod": [
-    "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity"
+    "did:web:inji.github.io:inji-config:dev-int-inji:mock-identity"
   ],
   "service": [],
-  "id": "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity",
+  "id": "did:web:inji.github.io:inji-config:dev-int-inji:mock-identity",
   "verificationMethod": [
     {
-      "controller": "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity",
+      "controller": "did:web:inji.github.io:inji-config:dev-int-inji:mock-identity",
       "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy5qURMKhtBqLn/gc+xH5\nSfVJK8xws2cZAjUWzo8ZUQb6o2+uurVIBUzVbPKvLvqfQaaJqyFIdh2VK+z2viwL\nrQcvqTH1nyVeFwcFHn74zpEmr+BsNYodlHsHl8/H1UDlO49woKCJaMrZHAkvYcc+\noZjkj393QxHIBYPjVBRbGUHNKrgQ3K1PGfzrAVZyjDW0X5j4SpBosYNOg3LIEj6e\nCnsD9GptVsPb6FiWisxqFrIQMN3cYVMtkfCndgAuAQgBk1gbg8A1bQTvTfr1jIvV\neqnmjFYKo9x5WsQpyVBtfveuFJE7VxbBWRDZ0VU6Z8ES1fr8rSER+l1yS/1nY5hV\nSQIDAQAB\n-----END PUBLIC KEY-----",
-      "id": "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity#p-vteJ--2uAcpEurA460gzJ-NonmJbkpoW-GXqKUEuI",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:mock-identity#p-vteJ--2uAcpEurA460gzJ-NonmJbkpoW-GXqKUEuI",
       "type": "RsaVerificationKey2018",
       "@context": "https://w3id.org/security/v1"
     },
     {
       "publicKeyMultibase": "zDnaex6utX17kn6cJfyYr8tkWQzwhPBtFfFb17zce4VCCz4jw",
-      "controller": "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity",
-      "id": "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity#b-yFcX3lbDH96eQUmUYHTYK5y5VE0ymJxmu-1CgM_AY",
+      "controller": "did:web:inji.github.io:inji-config:dev-int-inji:mock-identity",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:mock-identity#b-yFcX3lbDH96eQUmUYHTYK5y5VE0ymJxmu-1CgM_AY",
       "type": "EcdsaSecp256r1VerificationKey2019",
       "@context": "https://w3id.org/security/suites/ecdsa-2019/v1"
     },
     {
       "publicKeyMultibase": "z6MksgQRkAdEZk5ZuKRKGQehqZvjN3cMahNnWSnaR74p4GKx",
-      "controller": "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity",
-      "id": "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity#BF6EnRlmWN2x2T0HsTBbDtbci_dD2qYPdtxlVpv2Lz8",
+      "controller": "did:web:inji.github.io:inji-config:dev-int-inji:mock-identity",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:mock-identity#BF6EnRlmWN2x2T0HsTBbDtbci_dD2qYPdtxlVpv2Lz8",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
@@ -32,6 +32,6 @@
   ],
   "alsoKnownAs": [],
   "authentication": [
-    "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity"
+    "did:web:inji.github.io:inji-config:dev-int-inji:mock-identity"
   ]
 }

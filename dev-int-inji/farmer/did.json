@@ -1,21 +1,21 @@
 {
   "assertionMethod": [
-    "did:web:mosip.github.io:inji-config:dev-int-inji:farmer"
+    "did:web:inji.github.io:inji-config:dev-int-inji:farmer"
   ],
   "service": [],
-  "id": "did:web:mosip.github.io:inji-config:dev-int-inji:farmer",
+  "id": "did:web:inji.github.io:inji-config:dev-int-inji:farmer",
   "verificationMethod": [
     {
-      "controller": "did:web:mosip.github.io:inji-config:dev-int-inji:farmer",
+      "controller": "did:web:inji.github.io:inji-config:dev-int-inji:farmer",
       "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxE07gFCR36gAaXUQVwer\njDy8BZ2H40aSGggHoVkREFTKN4kAWkRiekIqqnPBtzg1DhFUGRvbG+61rapXxKl9\nccsma5hlvcMedTVt9Bg78bsd6c3noIGE5ZYotMV+0r1z8/kFnr79TMgtnzWpLopy\nR4RU9JeQLpgPrY4Ef82LKSmdw2CzQ0K9A/bhWREeD7C17nvqGs21GPhy+DxItWX1\nS1hligpjbakjR0qwvLBx56dQlSmfq5T8adGocJOy0y6PFHXdp02slQUUto8JBPoO\nSFNpXizvRFKDNgkk6Jjudy8IiKnAwvsS5tvadDE2vQIr4AV6npTbJYLCp3ye2MCn\n0QIDAQAB\n-----END PUBLIC KEY-----",
-      "id": "did:web:mosip.github.io:inji-config:dev-int-inji:farmer#FndnNfqbfxgv4viIgLyF3c7nri4OyrIO5ZlXVkcOhPI",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:farmer#FndnNfqbfxgv4viIgLyF3c7nri4OyrIO5ZlXVkcOhPI",
       "type": "RsaVerificationKey2018",
       "@context": "https://w3id.org/security/v1"
     },
     {
       "publicKeyMultibase": "z6MkjBFMB2KXcB45TTUtPtLeUZftZABSZchGBNJLwrnzcQy6",
-      "controller": "did:web:mosip.github.io:inji-config:dev-int-inji:farmer",
-      "id": "did:web:mosip.github.io:inji-config:dev-int-inji:farmer#rYCXjgs8nPGqrVv75z-pKACsUw9VlA2WLUPbCjuGn6Q",
+      "controller": "did:web:inji.github.io:inji-config:dev-int-inji:farmer",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:farmer#rYCXjgs8nPGqrVv75z-pKACsUw9VlA2WLUPbCjuGn6Q",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
@@ -25,6 +25,6 @@
   ],
   "alsoKnownAs": [],
   "authentication": [
-    "did:web:mosip.github.io:inji-config:dev-int-inji:farmer"
+    "did:web:inji.github.io:inji-config:dev-int-inji:farmer"
   ]
 }

@@ -1,14 +1,14 @@
 {
   "assertionMethod": [
-    "did:web:mosip.github.io:inji-config:collab:mock-identity"
+    "did:web:inji.github.io:inji-config:collab:mock-identity"
   ],
   "service": [],
-  "id": "did:web:mosip.github.io:inji-config:collab:mock-identity",
+  "id": "did:web:inji.github.io:inji-config:collab:mock-identity",
   "verificationMethod": [
     {
       "publicKeyMultibase": "z6MknpcUMAxt8j4H3DSLUiRjCyqXBGraQTjpnbGkihoNVQnQ",
-      "controller": "did:web:mosip.github.io:inji-config:collab:mock-identity",
-      "id": "did:web:mosip.github.io:inji-config:collab:mock-identity#oIt16kCnOIRGrunWdS7gx3HHFnWTzeXTVHBLaMi6zZ0",
+      "controller": "did:web:inji.github.io:inji-config:collab:mock-identity",
+      "id": "did:web:inji.github.io:inji-config:collab:mock-identity#oIt16kCnOIRGrunWdS7gx3HHFnWTzeXTVHBLaMi6zZ0",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
@@ -18,6 +18,6 @@
   ],
   "alsoKnownAs": [],
   "authentication": [
-    "did:web:mosip.github.io:inji-config:collab:mock-identity"
+    "did:web:inji.github.io:inji-config:collab:mock-identity"
   ]
 }

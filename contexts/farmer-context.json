@@ -5,7 +5,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "FarmerCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/farmer-context.json#FarmerCredential"
+      "@id": "https://inji.github.io/inji-config/contexts/farmer-context.json#FarmerCredential"
     },
     "farmerDetails": "schema:Thing",
     "authority": {

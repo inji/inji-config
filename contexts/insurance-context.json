@@ -5,7 +5,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "InsuranceCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/insurance-context.json#InsuranceCredential"
+      "@id": "https://inji.github.io/inji-config/contexts/insurance-context.json#InsuranceCredential"
     },
     "dob": "schema:birthDate",
     "email": "schema:email",

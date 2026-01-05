@@ -5,7 +5,7 @@
         "type": "@type",
         "schema": "https://schema.org/",
         "IncomeTaxAccountCredential": {
-            "@id": "https://mosip.github.io/inji-config/contexts/tan-context.json#IncomeTaxAccountCredential"
+            "@id": "https://inji.github.io/inji-config/contexts/tan-context.json#IncomeTaxAccountCredential"
         },
         "fullName": "schema:Text",
         "dateOfBirth": "schema:Text",

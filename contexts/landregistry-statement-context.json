@@ -5,7 +5,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "LandStatementCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/landregistry-statement-context.json#LandStatementCredential"
+      "@id": "https://inji.github.io/inji-config/contexts/landregistry-statement-context.json#LandStatementCredential"
     },
     "NumberOfCAR": "schema:Text",
     "RegistrationDate": "schema:DateTime",

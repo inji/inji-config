@@ -5,7 +5,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "SchoolCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/school.json#SchoolCredential"
+      "@id": "https://inji.github.io/inji-config/contexts/school.json#SchoolCredential"
     },
     "student_id": "schema:text",
     "student_name": "schema:name",

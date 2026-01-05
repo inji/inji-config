@@ -6,7 +6,7 @@
     "schema": "https://schema.org/",
 
     "RegistrationReceiptCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/landregistry-registration-receipt-context-multilang.json#RegistrationReceiptCredential"
+      "@id": "https://inji.github.io/inji-config/contexts/landregistry-registration-receipt-context-multilang.json#RegistrationReceiptCredential"
     },
 
     "NumberOfCAR": {

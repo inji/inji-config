@@ -5,7 +5,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "landstatement_revocation": {
-      "@id": "https://mosip.github.io/inji-config/contexts/landregistry-statement-revocation-context.json#landstatement_revocation"
+      "@id": "https://inji.github.io/inji-config/contexts/landregistry-statement-revocation-context.json#landstatement_revocation"
     },
     "NumberOfCAR": "schema:Text",
     "RegistrationDate": "schema:DateTime",

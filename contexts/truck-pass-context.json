@@ -5,7 +5,7 @@
     "type": "@type",
     "schema": "https://schema.org/ ",
     "TruckPassCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/truck-pass-context.json#TruckPassCredential"
+      "@id": "https://inji.github.io/inji-config/contexts/truck-pass-context.json#TruckPassCredential"
     },
     "Truck Pass ID": "schema:Text",
     "UIN": "schema:Text",

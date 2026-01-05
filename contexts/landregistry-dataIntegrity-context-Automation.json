@@ -6,7 +6,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "landregistry_dataIntegrity": {
-      "@id": "https://mosip.github.io/inji-config/contexts/landregistry-dataIntegrity-context-Automation.json#landregistry_dataIntegrity"
+      "@id": "https://inji.github.io/inji-config/contexts/landregistry-dataIntegrity-context-Automation.json#landregistry_dataIntegrity"
     },
     "NumberOfCAR": "schema:Text",
     "RegistrationDate": "schema:DateTime",

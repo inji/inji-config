@@ -1,14 +1,14 @@
 {
   "assertionMethod": [
-    "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1#key-0"
+    "did:web:inji.github.io:inji-config:dev-int-inji:academic-ecr1#key-0"
   ],
   "service": [],
-  "id": "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1",
+  "id": "did:web:inji.github.io:inji-config:dev-int-inji:academic-ecr1",
   "verificationMethod": [
     {
       "publicKeyMultibase": "zDnaeUhXqFDRWShEkk2YAvJjz9wBTpP6bftjPFqWeapTaZVaR",
-      "controller": "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1",
-      "id": "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1#key-0",
+      "controller": "did:web:inji.github.io:inji-config:dev-int-inji:academic-ecr1",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:academic-ecr1#key-0",
       "type": "EcdsaSecp256r1VerificationKey2019",
       "@context": "https://w3id.org/security/suites/ecdsa-2019/v1"
     }
@@ -18,6 +18,6 @@
   ],
   "alsoKnownAs": [],
   "authentication": [
-    "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1#key-0"
+    "did:web:inji.github.io:inji-config:dev-int-inji:academic-ecr1#key-0"
   ]
 }

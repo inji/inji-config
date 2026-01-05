@@ -5,7 +5,7 @@
     "schema": "https://schema.org/",
     "type": "@type",
     "CompassCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/compass-context.json#CompassCredential"
+      "@id": "https://inji.github.io/inji-config/contexts/compass-context.json#CompassCredential"
     },
     "firstName": "schema:Text",
     "lastName": "schema:Text",

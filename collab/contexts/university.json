@@ -5,7 +5,7 @@
         "type": "@type",
         "schema": "https://schema.org/",
         "UniversityCredential": {
-            "@id": "https://mosip.github.io/inji-config/collab/contexts/university.json#UniversityCredential"
+            "@id": "https://inji.github.io/inji-config/collab/contexts/university.json#UniversityCredential"
         },
         "rollNumber": "schema:Number",
         "studentName": "schema:name",

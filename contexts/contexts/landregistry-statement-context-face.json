@@ -5,7 +5,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "faceVCtest": {
-      "@id": "https://mosip.github.io/inji-config/contexts/landregistry-statement-context-face.json#faceVCtest"
+      "@id": "https://inji.github.io/inji-config/contexts/landregistry-statement-context-face.json#faceVCtest"
     },
     "NumberOfCAR": "schema:Text",
     "RegistrationDate": "schema:DateTime",

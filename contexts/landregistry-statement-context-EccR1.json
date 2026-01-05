@@ -5,7 +5,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "landstatement_EccR1": {
-      "@id": "https://mosip.github.io/inji-config/contexts/landregistry-statement-context-EccR1.json#landstatement_EccR1"
+      "@id": "https://inji.github.io/inji-config/contexts/landregistry-statement-context-EccR1.json#landstatement_EccR1"
     },
     "NumberOfCAR": "schema:Text",
     "RegistrationDate": "schema:DateTime",

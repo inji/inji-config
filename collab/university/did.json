@@ -1,14 +1,14 @@
 {
   "assertionMethod": [
-    "did:web:mosip.github.io:inji-config:collab:university#key-0"
+    "did:web:inji.github.io:inji-config:collab:university#key-0"
   ],
   "service": [],
-  "id": "did:web:mosip.github.io:inji-config:collab:university",
+  "id": "did:web:inji.github.io:inji-config:collab:university",
   "verificationMethod": [
     {
       "publicKeyMultibase": "z6Mki9gvkxEXvyenXUYSWxUQzwR7z5Qis6kLK5Pa4oJauxHs",
-      "controller": "did:web:mosip.github.io:inji-config:collab:university",
-      "id": "did:web:mosip.github.io:inji-config:collab:university#key-0",
+      "controller": "did:web:inji.github.io:inji-config:collab:university",
+      "id": "did:web:inji.github.io:inji-config:collab:university#key-0",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
@@ -18,6 +18,6 @@
   ],
   "alsoKnownAs": [],
   "authentication": [
-    "did:web:mosip.github.io:inji-config:collab:university#key-0"
+    "did:web:inji.github.io:inji-config:collab:university#key-0"
   ]
 }
