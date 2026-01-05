@@ -8,7 +8,7 @@
         {
           "name": "MOSIP National ID",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "a square logo of MOSIP"
           },
           "title": "Download MOSIP Credentials via OTP",
@@ -18,7 +18,7 @@
         {
           "name": "الهوية الوطنية MOSIP",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "شعار مربع لـ MOSIP"
           },
           "title": "قم بتنزيل بيانات اعتماد MOSIP عبر OTP",
@@ -28,7 +28,7 @@
         {
           "name": "एमओसिप राष्ट्रीय आईडी",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "MOSIP का एक वर्गाकार लोगो"
           },
           "title": "OTP के माध्यम से MOSIP क्रेडेंशियल डाउनलोड करें",
@@ -38,7 +38,7 @@
         {
           "name": "MOSIP ರಾಷ್ಟ್ರೀಯ ID",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "MOSIP ನ ಚದರ ಲೋಗೋ"
           },
           "title": "OTP ಮೂಲಕ MOSIP ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
@@ -48,7 +48,7 @@
         {
           "name": "MOSIP தேசிய ஐடி",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "MOSIP இன் சதுர லோகோ"
           },
           "title": "OTP வழியாக MOSIP சான்றுகளைப் பதிவிறக்கவும்",
@@ -58,7 +58,7 @@
         {
           "name": "MOSIP National ID",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "isang parisukat na logo ng MOSIP"
           },
           "title": "I-download ang Mga Kredensyal ng MOSIP sa pamamagitan ng OTP",
@@ -77,7 +77,7 @@
         {
           "name": "National Identity Department",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "National Identity Department",
@@ -87,7 +87,7 @@
         {
           "name": "دائرة الهوية الوطنية",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "شعار موسيب"
           },
           "title": "دائرة الهوية الوطنية",
@@ -97,7 +97,7 @@
         {
           "name": "राष्ट्रीय पहचान विभाग",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "मोसिप लोगो"
           },
           "title": "राष्ट्रीय पहचान विभाग",
@@ -107,7 +107,7 @@
         {
           "name": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip ಲೋಗೋ"
           },
           "title": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
@@ -117,7 +117,7 @@
         {
           "name": "தேசிய அடையாளத் துறை",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip லோகோ"
           },
           "title": "தேசிய அடையாளத் துறை",
@@ -127,7 +127,7 @@
         {
           "name": "National Identity Department",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "logo ng mosip"
           },
           "title": "National Identity Department",
@@ -154,7 +154,7 @@
         {
           "name": "StayProtected Insurance",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
+            "url": "https://inji.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "a square logo of a Sunbird"
           },
           "language": "en",
@@ -181,7 +181,7 @@
         {
           "name": "Mock Identity",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Mock Identity",
@@ -208,7 +208,7 @@
         {
           "name": "Land Registry",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "land-logo"
           },
           "title": "Land Registry",
@@ -235,7 +235,7 @@
         {
           "name": "Mock Mobile Driving License",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Mock Mobile Driving License",
@@ -262,7 +262,7 @@
         {
           "name": "Farmer ID Card",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Farmer ID Card",
