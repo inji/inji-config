@@ -8,7 +8,7 @@
     {
       "publicKeyMultibase": "z6MkmptH69FyoFxjg2BpwioTKL7AnEzRbHEgWykbqWR57ogQ",
       "controller": "did:web:inji.github.io:inji-config:released:landregistry",
-      "id": "did:web:inji.github.io:inji-config:released:landregistry#FdI7ovbAlzWTTVcbKHAY42lXgh2dm7MmyvVEvkajuH8",
+      "id": "did:web:inji.github.io:inji-config:released:landregistry#s1JZyyW_6qjtzYz1ys8yOvi2J3484bSZ6adXm5F2LRg",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
