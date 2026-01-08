@@ -1,0 +1,42 @@
+{
+  "assertionMethod": [
+    "did:web:inji.github.io:inji-config:dev-int-inji:land-registry"
+  ],
+  "service": [],
+  "id": "did:web:inji.github.io:inji-config:dev-int-inji:land-registry",
+  "verificationMethod": [
+    {
+      "controller": "did:web:inji.github.io:inji-config:dev-int-inji:land-registry",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqKHV1aIljPxzgge8e2nU\nBT5+JUKNgj9syCoEXYE2qLTDactUfZ1hKGhhVoZTgqaC3RerKjQR+wB6wZLXZNG1\nPc4ow9HmaGGYgSTB6ZA8llxgo9aWXdQAQzvjJwv2Hm0pu/Se49akaos9gBih2RkC\nFZmGkRAJpHg1/vbUnq9gGG9rrgVWb18IWdw4Yhkg0iMg8l2D6sBlqpcMLlZ1gQgu\nxUNHQ48E0ldxWURx5mx5+vbXv3ypLQBILPMIFNn8UnsF/oJt9JTb2zkJOPZMXiQr\njRFgwOQbs0t+152luHpVtr1mfZnk9fKS9lXLjmanV+25Pg6dSX0Bi9LF9t+GYNIp\n3QIDAQAB\n-----END PUBLIC KEY-----",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:land-registry#aDaONcb9cmUCihpMqcEz2h3lNq3CI6NrLDDNpqCuZZE",
+      "type": "RsaVerificationKey2018",
+      "@context": "https://w3id.org/security/v1"
+    },
+    {
+      "controller": "did:web:inji.github.io:inji-config:dev-int-inji:land-registry",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "1AtfNuvk3k82lYOIa8NIcJ1xAvUG-9ODtSU0SnbXxe4",
+        "y": "zIXwIzx-QOZhNc4GEPxhFWCzW6PYTNCmc0piA6HXEWA"
+      },
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:land-registry#pIQWcMQT1rutwLdGQEgF6ZyRzL_CgCQElFaW7LVLZm0",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "@context": "https://w3id.org/security/v1"
+    },
+    {
+      "publicKeyMultibase": "z6MkuFCiPAEe3YjJAWAjMNky1zT5HQFiNLdm68ykCEkZpv6R",
+      "controller": "did:web:inji.github.io:inji-config:dev-int-inji:land-registry",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:land-registry#eWL6N49cZAP-XoUFx7L5fPooH5l6ai6eSJURlZse9Xw",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:inji.github.io:inji-config:dev-int-inji:land-registry"
+  ]
+}
