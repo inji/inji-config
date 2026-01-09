@@ -1,39 +1,4 @@
 # Inji-Config
-This Repository contains configurations for Inji Stack, These are the split up of the properties used by different modules in the inji stack
+This is a temporary repository for hosting templates and logo-url'sfor already issued credentials from collab env via gh-pages . 
 
-### Inji Mobile
-- [inji-default.properties](inji-default.properties) - Default Configuration for Inji Mobile App is mentioned here
-
-### Inji Web
-- [credential-template.html](credential-template.html) - PDF Template for Inji Web Credential Download is mentioned here
-
-### Mimoto
-- [mimoto-default.properties](mimoto-default.properties) - Default Configuration for Mimoto App is mentioned here
-- [mimoto-issuers-config.json](mimoto-issuers-config.json) - Configuration of All Supported Credential Issuers is mentioned here
-- [mimoto-trusted-verifiers.json](mimoto-trusted-verifiers.json) - Configuration of All Trusted Credential Verifiers is mentioned here
-  - The **response_uri** is used to receive vp_token for cross device flow support.
-  - A mock configuration for the `mock-verifier` is provided to represent a verifier that supports only signed requests. Currently, Inji Verify does not support signed requests, but the wallet supports both signed and unsigned requests. Therefore, this configuration is only for demonstration purposes.
-
-### DataShare
-
-- [data-share-default.properties](data-share-default.properties) - Default Configuration for Datashare is mentioned here
-- [data-share-standalone.properties](data-share-standalone.properties) - Standalone Configuration for Datashare is mentioned here, which lets you use datashare service without PMS 
-
-
-### Inji Certify
-
-[certify-default.properties](certify-default.properties) - This file holds only the certify's core properties and will have the last section for properties that is suppose to be overridden by the plugin-usecase properties
-
-Right now we will be maintaining the below 3 plugin-usecase property files, one for each plugin that is readily available for certify integration. 
-And each plugin is associated with an example usecase.
-
-1. [certify-mock-identity.properties](certify-mock-identity.properties) - Uses mock plugin and showcases identity usecase
-2. [certify-mosipid-identity.properties](certify-mosipid-identity.properties) - Uses mosip identity plugin and showcases identity usecase
-3. [certify-sunbird-insurance.properties](certify-sunbird-insurance.properties) - Uses sunbird RC plugin and showcases insurance usecase
-4. [certify-postgres-landregistry.properties](certify-postgres-landregistry.properties) - Uses posgtres dataprovider plugin and showcases land registry and land statement usecases
-
-
-Each plugin-usecase property file will contain the below 3 sections
-1. Properties to enable the plugin
-2. Properties specific to plugins
-3. Properties that is available in the certify-default.properties but needs to be overriden specific to the usecase
+Original inji-config repo is now transfered to inji organisation and is available as [inji-config](https://github.com/inji/inji-config).
