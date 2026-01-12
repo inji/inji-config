@@ -1,0 +1,23 @@
+{
+  "assertionMethod": [
+    "did:web:inji.github.io:inji-config:dev-int-inji:mosipid-identity"
+  ],
+  "service": [],
+  "id": "did:web:inji.github.io:inji-config:dev-int-inji:mosipid-identity",
+  "verificationMethod": [
+    {
+      "publicKeyMultibase": "z6Mkq673v2baVaNMCs2tgkoKcxYrVmnT23AXDW2xxBnZQNQo",
+      "controller": "did:web:inji.github.io:inji-config:dev-int-inji:mosipid-identity",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:mosipid-identity#7TmkqqmmpxilQ_H54iWD1Uea90JTiup_p9mUi90UMvA",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:inji.github.io:inji-config:dev-int-inji:mosipid-identity"
+  ]
+}
