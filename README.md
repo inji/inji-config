@@ -1,6 +1,6 @@
 # Inji-Config
 
-This is a temporary repository for hosting templates and logo URLs for already-issued credentials from the [collab environment](collab.mosip.net) via gh-pages.
+This is a temporary repository for hosting templates and logo URLs for already-issued credentials via gh-pages.
 
 The original **inji-config** repository has now been transferred to the **Inji** GitHub organization and is available here:  
 ➡️ [inji-config](https://github.com/inji/inji-config).
