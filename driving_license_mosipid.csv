@@ -1,0 +1,3 @@
+id,givenName,familyName,birthDate,documentNumber,portrait,drivingPrivileges
+6039071423,Test,User,1992-04-15,DL6039071423,"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAFCAYAAABW1IzHAAAAHklEQVQokWNgGPaAkZHxPyMj439sYrSQo51PBgsAALa0ECF30JSdAAAAAElFTkSuQmCC","[{""vehicleCategoryCode"": ""A"", ""issueDate"": ""2023-01-15""}]"
+2042351307,Test1,User,1992-04-15,DL2042351307,"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAFCAYAAABW1IzHAAAAHklEQVQokWNgGPaAkZHxPyMj439sYrSQo51PBgsAALa0ECF30JSdAAAAAElFTkSuQmCC","[{""vehicleCategoryCode"": ""B"", ""issueDate"": ""2023-01-15""}]"
