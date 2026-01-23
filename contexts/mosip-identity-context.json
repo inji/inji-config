@@ -94,9 +94,15 @@
       }
     },
     "face": "schema:image",
+    "compressedFace": "schema:image",
     "identityQRCode": "schema:Text",
     "faceQRCode": "schema:Text",
     "addressQRCode": "schema:Text",
-    "birthQRCode": "schema:Text"
+    "birthQRCode": "schema:Text",
+    "claim169": {
+      "@id": "mosipid:claim169",
+      "@container": "@index",
+      "@type": "schema:Text"
+    }
   }
 }
