@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "university": "https://inji.github.io/inji-config/contexts/university-context.json#",
+    "UniversityCredential": {
+      "@id": "university:UniversityCredential"
+    },
+    "studentName": {
+      "@id": "schema:name",
+      "@container": "@language"
+    },
+    "rollNumber": "schema:identifier",
+    "gender": {
+      "@id": "schema:gender",
+      "@container": "@language"
+    },
+    "dateOfBirth": {
+      "@id": "schema:birthDate",
+      "@type": "schema:Date"
+    },
+    "courseName": {
+      "@id": "schema:educationalProgram",
+      "@container": "@language"
+    },
+    "courseDivisionName": {
+      "@id": "schema:educationalLevel",
+      "@container": "@language"
+    },
+    "courseDuration": {
+      "@id": "schema:duration",
+      "@container": "@language"
+    },
+    "result": {
+      "@id": "schema:educationalCredentialAwarded",
+      "@container": "@language"
+    },
+    "startDate": {
+      "@id": "schema:startDate",
+      "@type": "schema:Date"
+    },
+    "completionDate": {
+      "@id": "schema:endDate",
+      "@type": "schema:Date"
+    }
+  }
+}
