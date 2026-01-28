@@ -8,7 +8,7 @@
     {
       "controller": "did:web:inji.github.io:inji-config:dev-int-inji:landregistry",
       "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqKHV1aIljPxzgge8e2nU\nBT5+JUKNgj9syCoEXYE2qLTDactUfZ1hKGhhVoZTgqaC3RerKjQR+wB6wZLXZNG1\nPc4ow9HmaGGYgSTB6ZA8llxgo9aWXdQAQzvjJwv2Hm0pu/Se49akaos9gBih2RkC\nFZmGkRAJpHg1/vbUnq9gGG9rrgVWb18IWdw4Yhkg0iMg8l2D6sBlqpcMLlZ1gQgu\nxUNHQ48E0ldxWURx5mx5+vbXv3ypLQBILPMIFNn8UnsF/oJt9JTb2zkJOPZMXiQr\njRFgwOQbs0t+152luHpVtr1mfZnk9fKS9lXLjmanV+25Pg6dSX0Bi9LF9t+GYNIp\n3QIDAQAB\n-----END PUBLIC KEY-----",
-      "id": "did:web:inji.github.io:inji-config:dev-int-inji:landregistry#vmQ_W4lursX7tiHvMSfvPsKyUFXLg-ejUM0feHx8l3g",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:landregistry#kFCRhd_7srB8PiCG6X0dQJHp9zXJWzp6wkHO0WW_bAw",
       "type": "RsaVerificationKey2018",
       "@context": "https://w3id.org/security/v1"
     },
@@ -20,14 +20,14 @@
         "x": "1AtfNuvk3k82lYOIa8NIcJ1xAvUG-9ODtSU0SnbXxe4",
         "y": "zIXwIzx-QOZhNc4GEPxhFWCzW6PYTNCmc0piA6HXEWA"
       },
-      "id": "did:web:inji.github.io:inji-config:dev-int-inji:landregistry#HP7Np56Gu6J65SMd2p2yGUTq_oTvrMnF4n1x4Ks4jbI",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:landregistry#VioD-uBSkGCyGFTWgHG5hzddHIbOf3WDcGAOAEB-J0w",
       "type": "EcdsaSecp256k1VerificationKey2019",
       "@context": "https://w3id.org/security/v1"
     },
     {
       "publicKeyMultibase": "z6MkuFCiPAEe3YjJAWAjMNky1zT5HQFiNLdm68ykCEkZpv6R",
       "controller": "did:web:inji.github.io:inji-config:dev-int-inji:landregistry",
-      "id": "did:web:inji.github.io:inji-config:dev-int-inji:landregistry#ctKpsQfvn8K2Cv3_p4wter0ATc7ZlEuA0SzLPHw1Qk8",
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:landregistry#n5X2KaImj-2rXO8eiX170CVXArBF5jmu2P4RguOsLF0",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
