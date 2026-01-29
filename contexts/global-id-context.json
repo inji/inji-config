@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "schema": "https://schema.org/",
+    "type": "@type",
+    "GlobalIDCredential": {
+      "@id": "https://inji.github.io/inji-config/contexts/global-id-context.json#GlobalIDCredential"
+    },
+    "firstName": "schema:Text",
+    "lastName": "schema:Text",
+    "firstNameLatin": "schema:Text",
+    "lastNameLatin": "schema:Text",
+    "nationalIDNumber": "schema:Text",
+    "dateOfBirth": "schema:Date",
+    "nationality": "schema:Text",
+    "gender": "schema:Text",
+    "cardAccessNumber": "schema:Text",
+    "birthCountry": "schema:Text",
+    "face": "schema:Text",
+    "compassId": "schema:Text",
+    "compassIssuanceDate": "schema:Date",
+    "compassExpirationDate": "schema:Date"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "assertionMethod": [
+    "did:web:inji.github.io:inji-config:collab:global-id"
+  ],
+  "service": [],
+  "id": "did:web:inji.github.io:inji-config:collab:global-id",
+  "verificationMethod": [
+    {
+      "publicKeyMultibase": "z6MkfsKnU1HGvggdHX3NNTXQudqKw3UGFeVYmfvvx5YFnUj1",
+      "controller": "did:web:inji.github.io:inji-config:collab:global-id",
+      "id": "did:web:inji.github.io:inji-config:collab:global-id#p3bHV_2HKLOrbkookBoHxzFEn4a0EcrRBK06RKiedg0",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:inji.github.io:inji-config:collab:global-id"
+  ]
+}
