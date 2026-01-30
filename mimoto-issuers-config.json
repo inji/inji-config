@@ -469,7 +469,7 @@
         {
           "name": "GlobalID Authority",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/global-id-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/global-id-logo.png",
             "alt_text": "global-id-logo"
           },
           "title": "GlobalID Authority",
