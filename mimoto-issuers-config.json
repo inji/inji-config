@@ -460,6 +460,33 @@
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
+    },
+    {
+      "issuer_id": "GlobalIDPass",
+      "credential_issuer": "GlobalIDPass",
+      "credential_issuer_host": "https://${mosip.injicertify.compass.host}",
+      "display": [
+        {
+          "name": "GlobalID Authority",
+          "logo": {
+            "url": "https://inji.github.io/inji-config/logos/global-id-logo.png",
+            "alt_text": "global-id-logo"
+          },
+          "title": "GlobalID Authority",
+          "description": "Download GlobalID Pass",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.globalid.pass.clientid}",
+      "client_alias": "globalid-pass-client",
+      "wellknown_endpoint": "https://${mosip.injicertify.compass.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://${mosip.esignet.compass.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/GlobalIDPass",
+      "proxy_token_endpoint": "https://${mosip.esignet.compass.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
     }
   ]
 }
