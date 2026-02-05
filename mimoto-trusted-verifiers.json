@@ -3,8 +3,7 @@
     {
       "client_id": "${mosip.injiverify.host}/",
       "redirect_uris": [
-        "https://${mosip.injiverify.host}/",
-        "http://localhost:3000/"
+        "https://${mosip.injiverify.host}/"
       ],
       "response_uris": [
         "https://${mosip.injiverify.host}/v1/verify/vp-submission/direct-post"
