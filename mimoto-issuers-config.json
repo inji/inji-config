@@ -532,8 +532,8 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.farmer.partner.clientid}",
-      "client_alias": "mpartner-default-mimoto-farmer-oidc",
+      "client_id": "${mimoto.oidc.land.partner.clientid}",
+      "client_alias": "mpartner-default-mimoto-land-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.farmer.host}/v1/certify/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
