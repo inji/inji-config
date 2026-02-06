@@ -153,7 +153,7 @@
       "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/Mosip",
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OnlineSharing",
+      "qr_code_type": "EmbeddedVC",
       "enabled": "true"
     },
     {
@@ -487,6 +487,33 @@
       "proxy_token_endpoint": "https://${mosip.esignet.compass.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
+    },
+    {
+      "issuer_id": "iiit-dharwad",
+      "credential_issuer": "iiit-dharwad",
+      "protocol": "OpenId4VCI",
+      "display": [
+        {
+          "name": "IIIT Dharwad",
+          "logo": {
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Indian_Institute_of_Information_Technology%2C_Dharwad_Logo.svg/1200px-Indian_Institute_of_Information_Technology%2C_Dharwad_Logo.svg.png",
+            "alt_text": "IIIT Dharwad Logo"
+          },
+          "title": "IIIT Dharwad Certification",
+          "description": "Download credentials powered by IIIT Dharwad",
+          "language": "en"
+        }
+      ],
+      "client_id": "cred-flow2",
+      "wellknown_endpoint": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/wellknown_endpoints/Prod_testing/iiit-dharwad.json",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://prod-opt.credissuer.com/mimoto/v1/mimoto/get-token/iiit-dharwad",
+      "authorization_audience": "https://prod-opt.credissuer.com/esignet/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://prod-opt.credissuer.com/esignet/v1/esignet/oauth/v2/token",
+      "client_alias": "mpartner-default-mimotooidc",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true",
+      "credential_issuer_host": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com"
     }
   ]
 }
