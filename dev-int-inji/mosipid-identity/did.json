@@ -6,6 +6,18 @@
   "id": "did:web:inji.github.io:inji-config:dev-int-inji:mosipid-identity",
   "verificationMethod": [
     {
+      "controller": "did:web:inji.github.io:inji-config:dev-int-inji:mosipid-identity",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "dAXdxkNlHuqblJvewVISIT6CfBk5rzboBM12hflY9FU",
+        "y": "6Kv_dQYwCUSl-a2snOnXlwCS7cpoi9GrLiNN_3cijF4"
+      },
+      "id": "did:web:inji.github.io:inji-config:dev-int-inji:mosipid-identity#XvQCECsMFh3-XsRS2iLfWKYVfok3-rprgoHh2D5oi-k",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "@context": "https://w3id.org/security/v1"
+    },
+    {
       "publicKeyMultibase": "z6Mkq673v2baVaNMCs2tgkoKcxYrVmnT23AXDW2xxBnZQNQo",
       "controller": "did:web:inji.github.io:inji-config:dev-int-inji:mosipid-identity",
       "id": "did:web:inji.github.io:inji-config:dev-int-inji:mosipid-identity#7TmkqqmmpxilQ_H54iWD1Uea90JTiup_p9mUi90UMvA",
