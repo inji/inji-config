@@ -541,6 +541,33 @@
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
-    }
+    },
+    {
+          "issuer_id": "TruckPass",
+          "protocol": "OpenId4VCI",
+          "display": [
+            {
+              "name": "TruckPass Issuer",
+              "logo": {
+                "url": "https://inji.github.io/inji-config/logos/truckpass.png",
+                "alt_text": "truck-pass-logo"
+              },
+              "title": "TruckPass Issuer",
+              "description": "Download Truck Pass",
+              "language": "en"
+            }
+          ],
+          "client_id": "${mimoto.oidc.mdl.partner.clientid}",
+          "client_alias": "mpartner-default-mimoto-mdl-oidc",
+          "wellknown_endpoint": "https://injicertify-truckpass.collab.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+          "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+          "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+          "token_endpoint": "https://api.collab.mosip.net/v1/mimoto/get-token/TruckPass",
+          "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+          "qr_code_type": "OnlineSharing",
+          "enabled": "true",
+          "credential_issuer": "TruckPass",
+          "credential_issuer_host": "https://injicertify-truckpass.collab.mosip.net"
+        }
   ]
 }
