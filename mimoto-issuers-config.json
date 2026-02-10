@@ -491,12 +491,12 @@
     {
       "issuer_id": "iiit-dharwad",
       "credential_issuer": "iiit-dharwad",
-      "credential_issuer_host": "https://dev.credissuer.com/certify/v1/certify/issuance",
+      "credential_issuer_host": "https://dev.credissuer.com/certify",
       "display": [
         {
           "name": "IIIT Dharwad",
           "logo": {
-            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Indian_Institute_of_Information_Technology%2C_Dharwad_Logo.svg/1200px-Indian_Institute_of_Information_Technology%2C_Dharwad_Logo.svg.png",
+            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/iit-dharwad-logo.png",
             "alt_text": "IIIT Dharwad Logo"
           },
           "title": "IIIT Dharwad Certification",
@@ -508,7 +508,7 @@
       "client_id": "cred-flow2",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://dev.credissuer.com/mimoto/v1/mimoto/get-token/iiit-dharwad",
-      "authorization_audience": "https://dev.credissuer.com/esignet/v1/esignet/oauth/v2/token",
+      "authorization_audience": "https://dev.credissuer.com/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://dev.credissuer.com/esignet/v1/esignet/oauth/v2/token",
       "client_alias": "mpartner-default-mimotooidc",
       "qr_code_type": "OnlineSharing",
