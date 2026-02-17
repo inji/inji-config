@@ -8,7 +8,7 @@
     {
       "publicKeyMultibase": "z6MknpcUMAxt8j4H3DSLUiRjCyqXBGraQTjpnbGkihoNVQnQ",
       "controller": "did:web:inji.github.io:inji-config:collab:mock-identity",
-      "id": "did:web:inji.github.io:inji-config:collab:mock-identity#oIt16kCnOIRGrunWdS7gx3HHFnWTzeXTVHBLaMi6zZ0",
+      "id": "did:web:inji.github.io:inji-config:collab:mock-identity#sLECdoF_na9Cdz3LCIXi8n_qdzmaFCy0wr5vIJ7CIJQ",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
