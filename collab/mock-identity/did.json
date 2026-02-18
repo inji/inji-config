@@ -6,7 +6,7 @@
   "id": "did:web:inji.github.io:inji-config:collab:mock-identity",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6MknpcUMAxt8j4H3DSLUiRjCyqXBGraQTjpnbGkihoNVQnQ",
+      "publicKeyMultibase": "z6Mkgq4jKopGK5LtLSS3MD4UNHRinDQzu9hpUveCfn9GiFNC",
       "controller": "did:web:inji.github.io:inji-config:collab:mock-identity",
       "id": "did:web:inji.github.io:inji-config:collab:mock-identity#sLECdoF_na9Cdz3LCIXi8n_qdzmaFCy0wr5vIJ7CIJQ",
       "type": "Ed25519VerificationKey2020",
