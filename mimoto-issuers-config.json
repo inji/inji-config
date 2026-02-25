@@ -6,7 +6,7 @@
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
-          "name": "QA_devInt",
+          "name": "National Identity Department Mosip(QA_devInt)",
           "logo": {
             "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
@@ -75,7 +75,7 @@
       "authorization_audience": "https://${mosipid.identity.esignet.devintinji.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${mosipid.identity.esignet.devintinji.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "EmbeddedVC",
-      "enabled": "false"
+      "enabled": "true"
     },
     {
       "issuer_id": "StayProtected(QA)",
@@ -846,7 +846,7 @@
       "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Farmer",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "EmbeddedVC",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     }
   ]
