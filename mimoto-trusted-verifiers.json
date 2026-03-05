@@ -24,12 +24,12 @@
         {
             "client_id": "mock-client1",
             "redirect_uris": [
-                "https://48de-183-83-148-169.ngrok-free.app"
+                "https://de40-49-204-153-221.ngrok-free.app"
             ],
             "response_uris": [
-                "https://48de-183-83-148-169.ngrok-free.app/verifier/vp-response"
+                "https://de40-49-204-153-221.ngrok-free.app/verifier/vp-response"
             ],
-            "jwks_uri": "https://48de-183-83-148-169.ngrok-free.app/.well-known/jwks.json",
+            "jwks_uri": "https://de40-49-204-153-221.ngrok-free.app/.well-known/jwks.json",
             "allow_unsigned_request": true
         },
     {
