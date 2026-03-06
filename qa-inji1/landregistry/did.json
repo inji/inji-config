@@ -6,16 +6,16 @@
   "id": "did:web:inji.github.io:inji-config:qa-inji1:landregistry",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "zDnaeptV8aVkhnG9FX3FHaxSJLSb2ZapoGjnvwVuiM8itw1Ru",
+      "publicKeyMultibase": "zDnaeUZQkYEpwhPkNzzGs1jidi4H58gFHGMhAmPE72GoMPVJr",
       "controller": "did:web:inji.github.io:inji-config:qa-inji1:landregistry",
-      "id": "did:web:inji.github.io:inji-config:qa-inji1:landregistry#l2jb-4MpwXRXx2RxYYG11aVRjeQ2_xfBDtQqnv6ndfk",
+      "id": "did:web:inji.github.io:inji-config:qa-inji1:landregistry#i9UN92j4oK60qFoACqXodq4LDpJ7McRuMn60JTf6rDI",
       "type": "EcdsaSecp256r1VerificationKey2019",
       "@context": "https://w3id.org/security/suites/ecdsa-2019/v1"
     },
     {
-      "publicKeyMultibase": "z6Mkj3NiHZzRUbxVqPQPVRPZFDCWgVb1KhfV3dp2JXEajrRG",
+      "publicKeyMultibase": "z6Mkh9vCUBPYpnCdeUuxduqoiBMWiSV24U33GQofM62qyzmW",
       "controller": "did:web:inji.github.io:inji-config:qa-inji1:landregistry",
-      "id": "did:web:inji.github.io:inji-config:qa-inji1:landregistry#2Fx_l12c8_2xKT-I2QL1dF4UIncSNwyuAx11PxLDtdc",
+      "id": "did:web:inji.github.io:inji-config:qa-inji1:landregistry#4c-pDqZLyBpFyeCuFAgTMzXS24fQgbvza4TasBPKHlQ",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
