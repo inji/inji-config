@@ -16,7 +16,7 @@
             {
               "path": ["$.type"],
               "filter": {
-                "type": "string",
+                "type": "object",
                 "pattern": "MOSIPVerifiableCredential"
               }
             }
