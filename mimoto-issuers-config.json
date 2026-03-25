@@ -344,6 +344,33 @@
       "enabled": "true"
     },
     {
+      "issuer_id": "MockMd1",
+      "credential_issuer": "MockMd1",
+      "credential_issuer_host": "https://${mosip.injicertify.mdl.host}",
+      "display": [
+        {
+          "name": "Mock Mobile Driving License",
+          "logo": {
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Mock Mobile Driving License (qa-inji1)",
+          "description": "Download Mock Mobile Driving License",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mock.partner.clientid}",
+      "client_alias": "mpartner-default-mimoto-mock-oidc",
+      "wellknown_endpoint": "https://${mosip.injicertify.mdl.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MockMdl",
+      "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
       "issuer_id":"Land(Released)",
       "credential_issuer": "Land(Released)",
       "credential_issuer_host":"https://${mosip.injicertify.landregistry.released.host}",
