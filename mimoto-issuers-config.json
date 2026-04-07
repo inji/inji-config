@@ -2,7 +2,6 @@
   "issuers": [
     {
       "issuer_id": "MosipOtp",
-      "credential_issuer": "MosipOtp",
       "credential_issuer_host": "MosipOtp",
       "display": [
         {
@@ -71,7 +70,6 @@
     },
     {
       "issuer_id": "Mosip",
-      "credential_issuer": "Mosip",
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
@@ -138,17 +136,11 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mosipid-oidc",
-      "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
-      "proxy_token_endpoint": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
       "issuer_id": "StayProtected",
-      "credential_issuer": "StayProtected",
       "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
       "display": [
         {
@@ -165,17 +157,11 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.insurance.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-insurance-oidc",
-      "wellknown_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
-      "proxy_token_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
       "issuer_id": "Mock",
-      "credential_issuer": "Mock",
       "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "display": [
         {
@@ -192,17 +178,11 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mock.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mock-oidc",
-      "wellknown_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
-      "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
       "issuer_id": "Land",
-      "credential_issuer": "Land",
       "credential_issuer_host": "https://${mosip.injicertify.landregistry.host}",
       "display": [
         {
@@ -219,17 +199,11 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.land.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-land-released-oidc",
-      "wellknown_endpoint": "https://${mosip.injicertify.landregistry.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Land",
-      "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
       "issuer_id": "MockMdl",
-      "credential_issuer": "MockMdl",
       "credential_issuer_host": "https://${mosip.injicertify.mdl.host}",
       "display": [
         {
@@ -246,17 +220,11 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mdl.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mdl-released-oidc",
-      "wellknown_endpoint": "https://${mosip.injicertify.mdl.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MockMdl",
-      "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
       "issuer_id": "Farmer",
-      "credential_issuer": "Farmer",
       "credential_issuer_host": "https://${mosip.injicertify.farmer.host}",
       "display": [
         {
@@ -273,17 +241,11 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.farmer.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-farmer-oidc",
-      "wellknown_endpoint": "https://${mosip.injicertify.farmer.host}/v1/certify/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Farmer",
-      "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
       "issuer_id": "MockMdlPdi",
-      "credential_issuer": "MockMdlPdi",
       "credential_issuer_host": "https://${mosip.injicertify.mdoc.host}",
       "display": [
         {
@@ -300,11 +262,6 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mdl.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mdl-released-oidc",
-      "wellknown_endpoint": "https://${mosip.injicertify.mdoc.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MockMdlPdi",
-      "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
@@ -324,15 +281,9 @@
         }
       ],
       "client_id": "globalid-pass-client",
-      "wellknown_endpoint": "https://injicertify-globalid.collab.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://esignet-globalid.collab.mosip.net/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://api.collab.mosip.net/v1/mimoto/get-token/GlobalIDPass",
-      "proxy_token_endpoint": "https://esignet-globalid.collab.mosip.net/v1/esignet/oauth/v2/token",
       "client_alias": "globalid-pass-client",
       "qr_code_type": "OnlineSharing",
       "enabled": "true",
-      "credential_issuer": "GlobalIDPass",
       "credential_issuer_host": "https://injicertify-globalid.collab.mosip.net"
     },
     {
@@ -352,14 +303,8 @@
       ],
       "client_id": "${mimoto.oidc.mock.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mock-oidc",
-      "wellknown_endpoint": "https://injicertify-truckpass.dev-int-inji.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://api.dev-int-inji.mosip.net/v1/mimoto/get-token/TruckPass",
-      "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true",
-      "credential_issuer": "TruckPass",
       "credential_issuer_host": "https://injicertify-truckpass.dev-int-inji.mosip.net"
     }
   ]
