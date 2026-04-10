@@ -136,6 +136,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mosipid-oidc",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
@@ -157,6 +158,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.insurance.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-insurance-oidc",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
@@ -178,6 +180,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mock.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mock-oidc",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
@@ -199,6 +202,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.land.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-land-released-oidc",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Land",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
@@ -220,6 +224,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mdl.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mdl-released-oidc",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MockMdl",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
@@ -241,6 +246,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.farmer.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-farmer-oidc",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Farmer",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
@@ -262,6 +268,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mdl.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mdl-released-oidc",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MockMdlPdi",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
@@ -282,6 +289,7 @@
       ],
       "client_id": "globalid-pass-client",
       "client_alias": "globalid-pass-client",
+      "token_endpoint": "https://api.collab.mosip.net/v1/mimoto/get-token/GlobalIDPass",
       "qr_code_type": "OnlineSharing",
       "enabled": "true",
       "credential_issuer_host": "https://injicertify-globalid.collab.mosip.net"
@@ -303,6 +311,7 @@
       ],
       "client_id": "${mimoto.oidc.mock.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mock-oidc",
+      "token_endpoint": "https://api.dev-int-inji.mosip.net/v1/mimoto/get-token/TruckPass",
       "qr_code_type": "OnlineSharing",
       "enabled": "true",
       "credential_issuer_host": "https://injicertify-truckpass.dev-int-inji.mosip.net"
