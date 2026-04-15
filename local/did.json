@@ -1,0 +1,37 @@
+{
+  "assertionMethod": [
+    "did:web:mosip.github.io:inji-config:local"
+  ],
+  "service": [],
+  "id": "did:web:mosip.github.io:inji-config:local",
+  "verificationMethod": [
+    {
+      "controller": "did:web:mosip.github.io:inji-config:local",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj1UbEIJwGYI5wlE1CxE2\nushRcWbFYC7vmAA6c1XHMK+TPgk3NfZSR75LsvyM0JndySPe+cUk2/d1M+tDu04k\nu66Uyvx84Hqjq9BlPzyvEioJGno5sn3AwTjr33nA4GX0llS6xK2Ip+dWyQGpu2gA\nrj7TCzj/D9e9hULKIzAyiB8ww1yZ9IGDszAnxA0FkyCsvCdFY7qxulWy+6kc1fda\nzp1g5zfblWnvCIUNESjP0B/2o2dDsRBISMIkjc/37bN9JjY9+8sOqAyrTBMaynhM\nRFa+TF7aZzW7G7/NG2qYk1cFXhoQXmhIgPjFQsJjjnD+p6HIoqYu/uIKIL6HJJkZ\nnwIDAQAB\n-----END PUBLIC KEY-----",
+      "id": "did:web:mosip.github.io:inji-config:local#dH3yr7VFsIOQ7nXbqL1V2kHASbasyCsxahnUMePwY2s",
+      "type": "RsaVerificationKey2018"
+    },
+    {
+      "publicKeyMultibase": "zDnaeU82UU39okkhpEgBHxwH3KxdkfbNt1o1SvQtkrW1ca4zH",
+      "controller": "did:web:mosip.github.io:inji-config:local",
+      "id": "did:web:mosip.github.io:inji-config:local#sWWdRBm9lJV7-Qfl4RCuFkpendlEOPEFy301Dfs_Axo",
+      "type": "EcdsaSecp256r1VerificationKey2019"
+    },
+    {
+      "publicKeyMultibase": "z6MkgftRzZ9wjKwSSsfTaU5PQxwQq61Mjcg3Rb32g2r4LLyM",
+      "controller": "did:web:mosip.github.io:inji-config:local",
+      "id": "did:web:mosip.github.io:inji-config:local#whahp5Z-5RjbLJ6EruD9u_mRHfoSXGTuH8AIrcWM65I",
+      "type": "Ed25519VerificationKey2020"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/v1",
+    "https://w3id.org/security/suites/ecdsa-2019/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:mosip.github.io:inji-config:local"
+  ]
+}
