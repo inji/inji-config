@@ -109,6 +109,28 @@
       "enabled": "true"
     },
     {
+      "issuer_id": "LandQAtest",
+      "credential_issuer_host": "https://${mosip.injicertify.landregistry.host}",
+      "display": [
+        {
+          "name": "LandQAtest",
+          "logo": {
+            "url": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png",
+            "alt_text": "land-logo"
+          },
+          "title": "LandQAtest",
+          "description": "Download Land Registry Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.land.partner.clientid}",
+      "client_alias": "qa-inji-released-collaboration-client",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/LandQAtest",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
       "issuer_id": "Mosip",
       "credential_issuer": "Mosip",
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.released.host}",
