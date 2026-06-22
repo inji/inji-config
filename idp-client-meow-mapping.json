@@ -1,0 +1,53 @@
+{
+	"claims" : {
+		"1" : {
+			"value": "issuingCountry"
+		},
+		"4" : {
+			"value": "expirationTime"
+		},
+		"6" : {
+			"value": "issuedAt"
+		},
+		"-260" : {
+			"-7" : {
+				"n": {
+					"value": "name"
+				},
+				"dob": {
+					"value": "dateOfBirth"
+				},
+				"s": {
+					"value": "sex"
+				},
+				"dt": {
+					"value": "nationalIdType"
+				},
+				"id": {
+					"value": "nationalId"
+				},
+				"m": {
+					"value": "medications"
+				},
+				"m.m": {
+					"value": "medicationCode"
+				},
+				"m.r": {
+					"value": "reason"
+				},
+				"m.d": {
+					"value": "dosage"
+				},
+				"m.es": {
+					"value": "effectiveStartDate"
+				},
+				"m.ee": {
+					"value": "effectiveEndDate"
+				},
+				"m.da": {
+					"value": "dateAdministered"
+				}
+			}
+		}
+	}
+}
