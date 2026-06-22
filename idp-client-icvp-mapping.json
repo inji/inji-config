@@ -1,0 +1,56 @@
+{
+	"claims" : {
+		"1" : {
+			"value": "issuingCountry"
+		},
+		"6" : {
+			"value": "issuedAt"
+		},
+		"-260" : {
+			"-6" : {
+				"n": {
+					"value": "name"
+				},
+				"s": {
+					"value": "sex"
+				},
+				"dob": {
+					"value": "dateOfBirth"
+				},
+				"nid" : {
+					"value": "nationalId"
+				},
+				"ndt" : {
+					"value": "nationalIdType"
+				},
+				"ntl" : {
+					"value": "nationality"
+				},
+				"v": {
+					"value": "vaccinations",
+					"bo" : {
+						"value": "batchOrIdentifier"
+					},
+					"cn" : {
+						"value": "certificateNumber"
+					},
+					"dt": {
+						"value": "vaccinationDate"
+					},
+					"is": {
+						"value": "certificateIssuer"
+					},
+					"vls" : {
+						"value": "validFrom"
+					},
+					"vle" : {
+						"value": "validityPeriodEndDate"
+					},
+					"vp": {
+						"value": "vaccineProduct"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"claims" : {
+		"1" : {
+			"value": "issuingCountry"
+		},
+		"4" : {
+			"value": "expirationTime"
+		},
+
+		"6" : {
+			"value": "issuedAt"
+		},
+		"-260" : {
+			"5" : {
+				"value": "data"
+			}
+		}
+	}
+}
