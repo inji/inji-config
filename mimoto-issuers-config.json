@@ -201,6 +201,33 @@
       "enabled": "true"
     },
     {
+      "issuer_id": "MockDPoP",
+      "credential_issuer": "MockDPoP",
+      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
+      "display": [
+        {
+          "name": "Mock Identity (DPoP)",
+          "logo": {
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Mock Identity (DPoP)",
+          "description": "Download Mock Identity Credential via DPoP",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mock.partner.clientid}",
+      "client_alias": "mpartner-default-mimoto-mock-oidc",
+      "wellknown_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://esignet.esqa2.mosip.net/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/v2/get-token/MockDPoP",
+      "proxy_token_endpoint": "https://esignet.esqa2.mosip.net/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
       "issuer_id": "Land",
       "credential_issuer": "Land",
       "credential_issuer_host": "https://${mosip.injicertify.landregistry.host}",
