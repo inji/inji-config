@@ -147,6 +147,33 @@
       "enabled": "true"
     },
     {
+      "issuer_id": "Mock",
+      "credential_issuer": "Mock",
+      "credential_issuer_host": "https://${mosip.injicertify.mock.released.host}",
+      "display": [
+        {
+          "name": "Mock Identity",
+          "logo": {
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Mock Identity (released)",
+          "description": "Download Mock Identity Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mock.partner.clientid}",
+      "client_alias": "mpartner-qainji-mimoto-mock-oidc",
+      "wellknown_endpoint": "https://${mosip.injicertify.mock.released.host}/v1/certify/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
+      "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
       "issuer_id": "StayProtected",
       "credential_issuer": "StayProtected",
       "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
