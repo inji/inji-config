@@ -22,6 +22,17 @@
       "jwks_uri": "mock-verifier-jwk-wellknown",
       "allow_unsigned_request": false,
       "spec_version": "draft23"
+    },
+    {
+      "client_id": "certify-verifier-client",
+      "redirect_uris": [
+        "https://${mosip.injiverify.host}/"
+      ],
+      "response_uris": [
+        "https://${mosip.injiverify.host}/v1/verify/v2/vp-submission/direct-post"
+      ],
+      "spec_version": "draft23",
+      "allow_unsigned_request": true
     }
   ]
 }
