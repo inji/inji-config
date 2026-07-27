@@ -17,7 +17,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": 
+      "client_id": "${mimoto.oidc.insurance.partner.clientid}",
       "client_alias": "mpartner-qainji-mimoto-insurance-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
