@@ -28,7 +28,8 @@
         "https://${mosip.injiverify.host}/"
       ],
       "response_uris": [
-        "https://${mosip.injiverify.host}/v1/verify/vp-submission/direct-post"
+        "https://${mosip.injiverify.host}/v1/verify/vp-submission/direct-post",
+        "https://${mosip.injicertify.mdoc.host}/v1/certify/oauth/iae"
       ],
       "spec_version": "draft23",
       "allow_unsigned_request": true
