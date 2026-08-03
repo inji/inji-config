@@ -55,12 +55,12 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "Mock",
-      "credential_issuer": "Mock",
+      "issuer_id": "Mock DCQL",
+      "credential_issuer": "Mock DCQL",
       "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "display": [
         {
-          "name": "Mock Identity",
+          "name": "Mock Identity DCQL",
           "logo": {
             "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
