@@ -55,8 +55,8 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "Mock DCQL",
-      "credential_issuer": "Mock DCQL",
+      "issuer_id": "MockDCQL",
+      "credential_issuer": "MockDCQL",
       "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "display": [
         {
