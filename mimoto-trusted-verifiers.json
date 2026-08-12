@@ -36,12 +36,12 @@
     {
       "client_id": "mock-client",
       "redirect_uris": [
-        "https://example.com/redirect"
+        "https://bed4-122-183-54-115.ngrok-free.app/"
       ],
       "response_uris": [
-        "https://6d48e7b976bc.ngrok-free.app/verifier/vp-response"
+        "https://bed4-122-183-54-115.ngrok-free.app/verifier/vp-response"
       ],
-      "jwks_uri": "https://6d48e7b976bc.ngrok-free.app/.well-known/jwks.json",
+      "jwks_uri": "https://bed4-122-183-54-115.ngrok-free.app/.well-known/jwks.json",
       "allow_unsigned_request": true
     },
     {
