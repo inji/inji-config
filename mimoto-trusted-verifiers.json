@@ -1,38 +1,41 @@
 {
-    "verifiers": [
-        {
-            "client_id": "${mosip.injiverify.host}/",
-            "redirect_uris": [
-                "https://${mosip.injiverify.host}/"
-            ],
-            "response_uris": [
-                "https://${mosip.injiverify.host}/v1/verify/v2/vp-submission/direct-post"
-            ],
-            "allow_unsigned_request": true
-            "spec_version": "v1"
-        },
-        {
-            "client_id": "mock-client",
-            "redirect_uris": [
-                "https://787a-49-204-153-221.ngrok-free.app/"
-            ],
-            "response_uris": [
-                "https://787a-49-204-153-221.ngrok-free.app/verifier/vp-response"
-            ],
-            "jwks_uri": "https://787a-49-204-153-221.ngrok-free.app/.well-known/jwks.json",
-            "allow_unsigned_request": true
-        },
-        {
-            "client_id": "mock-client1",
-            "redirect_uris": [
-                " https://da62ed5b2980.ngrok-free.app "
-            ],
-            "response_uris": [
-                " https://da62ed5b2980.ngrok-free.app/verifier/vp-response"
-            ],
-            "jwks_uri": " https://da62ed5b2980.ngrok-free.app/.well-known/jwks.json",
-            "allow_unsigned_request": true
-        },
+  "verifiers": [
+    {
+      "client_id": "decentralized_identifier:did:web:${mosip.injiverify.host}:v1:verify",
+      "redirect_uris": [
+        "https://${mosip.injiverify.host}/"
+      ],
+      "response_uris": [
+        "https://${mosip.injiverify.host}/v1/verify/v2/vp-submission/direct-post"
+      ],
+      "jwks_uri": "https://${mosip.injiverify.host}/.well-known/jwks.json",
+      "allow_unsigned_request": true,
+      "spec_version": "v1"
+    },
+    {
+      "client_id": "mock-client",
+      "redirect_uris": [
+        "https://787a-49-204-153-221.ngrok-free.app/"
+      ],
+      "response_uris": [
+        "https://787a-49-204-153-221.ngrok-free.app/verifier/vp-response"
+      ],
+      "jwks_uri": "https://787a-49-204-153-221.ngrok-free.app/.well-known/jwks.json",
+      "allow_unsigned_request": true,
+      "spec_version": "v1"
+    },
+    {
+      "client_id": "mock-client1",
+      "redirect_uris": [
+        "https://da62ed5b2980.ngrok-free.app/"
+      ],
+      "response_uris": [
+        "https://da62ed5b2980.ngrok-free.app/verifier/vp-response"
+      ],
+      "jwks_uri": "https://da62ed5b2980.ngrok-free.app/.well-known/jwks.json",
+      "allow_unsigned_request": true,
+      "spec_version": "v1"
+    },
     {
       "client_id": "demo-mock-client",
       "redirect_uris": [
@@ -42,7 +45,8 @@
         "https://33381a7041ed.ngrok-free.app/verifier/vp-response"
       ],
       "jwks_uri": "https://33381a7041ed.ngrok-free.app/.well-known/jwks.json",
-      "allow_unsigned_request": true
+      "allow_unsigned_request": true,
+      "spec_version": "v1"
     },
     {
       "client_id": "demo-mock-client-1",
@@ -53,7 +57,8 @@
         "https://33381a7041ed.ngrok-free.app/verifier/vp-response"
       ],
       "jwks_uri": "https://33381a7041ed.ngrok-free.app/.well-known/jwks.json",
-      "allow_unsigned_request": false
+      "allow_unsigned_request": false,
+      "spec_version": "v1"
     },
     {
       "client_id": "demo-mock-client-2",
@@ -62,9 +67,12 @@
       ],
       "response_uris": [
         "https://33381a7041ed.ngrok-free.app/verifier/vp-response"
-      ]
+      ],
+      "jwks_uri": "https://33381a7041ed.ngrok-free.app/.well-known/jwks.json",
+      "allow_unsigned_request": false,
+      "spec_version": "v1"
     },
-        {
+    {
       "client_id": "test-client",
       "redirect_uris": [
         "https://verify-qa1-mockserver.loca.lt/"
@@ -73,9 +81,10 @@
         "https://verify-qa1-mockserver.loca.lt/verifier/vp-response"
       ],
       "jwks_uri": "https://verify-qa1-mockserver.loca.lt/.well-known/jwks.json",
-      "allow_unsigned_request": true
+      "allow_unsigned_request": true,
+      "spec_version": "v1"
     },
-          {
+    {
       "client_id": "test-client1",
       "redirect_uris": [
         "https://lunar-odell-azeotropic.ngrok-free.dev/"
@@ -84,7 +93,8 @@
         "https://lunar-odell-azeotropic.ngrok-free.dev/verifier/vp-response"
       ],
       "jwks_uri": "https://lunar-odell-azeotropic.ngrok-free.dev/.well-known/jwks.json",
-      "allow_unsigned_request": true
+      "allow_unsigned_request": true,
+      "spec_version": "v1"
     }
-    ]
+  ]
 }
