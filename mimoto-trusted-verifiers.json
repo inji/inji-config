@@ -1,5 +1,16 @@
 {
   "verifiers": [
+     {
+      "client_id": "${mosip.injiverify.host}/",
+      "redirect_uris": [
+        "https://${mosip.injiverify.host}/"
+      ],
+      "response_uris": [
+        "https://${mosip.injiverify.host}/v1/verify/v2/vp-submission/direct-post"
+      ],
+      "allow_unsigned_request": true,
+      "spec_version": "v1"
+    },
     {
       "client_id": "${mosip.injiverify.host}/",
       "redirect_uris": [
