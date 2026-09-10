@@ -36,7 +36,7 @@
     {
       "client_id": "mock-client",
       "redirect_uris": [
-        "https://bed4-122-183-54-115.ngrok-free.app/"
+        "https://boring-whacking-eraser.ngrok-free.dev/"
       ],
       "response_uris": [
         "https://boring-whacking-eraser.ngrok-free.dev/verifier/vp-response"
