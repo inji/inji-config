@@ -65,6 +65,17 @@
       ]
     },
     {
+      "client_id": "mock-client-3",
+      "redirect_uris": [
+        "https://example.com/redirect"
+      ],
+      "response_uris": [
+        "https://boring-whacking-eraser.ngrok-free.dev/verifier/vp-response"
+      ],
+      "jwks_uri": "https://boring-whacking-eraser.ngrok-free.dev/.well-known/jwks.json",
+      "allow_unsigned_request": false
+    },
+    {
       "client_id": "injiverify.collab.mosip.net",
       "redirect_uris": [
         "https://injiverify.collab.mosip.net/"
