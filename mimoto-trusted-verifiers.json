@@ -39,9 +39,9 @@
         "https://bed4-122-183-54-115.ngrok-free.app/"
       ],
       "response_uris": [
-        "https://bed4-122-183-54-115.ngrok-free.app/verifier/vp-response"
+        "https://boring-whacking-eraser.ngrok-free.dev/verifier/vp-response"
       ],
-      "jwks_uri": "https://bed4-122-183-54-115.ngrok-free.app/.well-known/jwks.json",
+      "jwks_uri": "https://boring-whacking-eraser.ngrok-free.dev/.well-known/jwks.json",
       "allow_unsigned_request": true
     },
     {
@@ -63,17 +63,6 @@
       "response_uris": [
         "https://6d48e7b976bc.ngrok-free.app/verifier/vp-response"
       ]
-    },
-    {
-      "client_id": "mock-client-3",
-      "redirect_uris": [
-        "https://example.com/redirect"
-      ],
-      "response_uris": [
-        "https://boring-whacking-eraser.ngrok-free.dev/verifier/vp-response"
-      ],
-      "jwks_uri": "https://boring-whacking-eraser.ngrok-free.dev/.well-known/jwks.json",
-      "allow_unsigned_request": false
     },
     {
       "client_id": "injiverify.collab.mosip.net",
