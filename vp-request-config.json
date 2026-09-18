@@ -8,7 +8,7 @@
           "type_values": [
             [
               "https://www.w3.org/2018/credentials#VerifiableCredential",
-              "https://example.org/credentials#MOSIPVerifiableCredential"
+              "https://inji.github.io/inji-config/contexts/mosip-identity-context.json#MOSIPVerifiableCredential"
             ]
           ]
         }
