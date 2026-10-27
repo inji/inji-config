@@ -25,14 +25,14 @@
       "spec_version": "v1"
     },
     {
-      "client_id": "mock-client1",
+      "client_id": "Dev-Test",
       "redirect_uris": [
-        "https://da62ed5b2980.ngrok-free.app/"
+        "https://itzel-nonjournalistic-nonvicariously.ngrok-free.dev/"
       ],
       "response_uris": [
-        "https://da62ed5b2980.ngrok-free.app/verifier/vp-response"
+        "https://itzel-nonjournalistic-nonvicariously.ngrok-free.dev/verifier/vp-response"
       ],
-      "jwks_uri": "https://da62ed5b2980.ngrok-free.app/.well-known/jwks.json",
+      "jwks_uri": "https://itzel-nonjournalistic-nonvicariously.ngrok-free.dev/.well-known/jwks.json",
       "allow_unsigned_request": true,
       "spec_version": "v1"
     },
