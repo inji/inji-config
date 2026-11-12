@@ -12,7 +12,7 @@
             "alt_text": "a square logo of a Sunbird"
           },
           "language": "en",
-          "title": "Download StayProtected Insurance Credentials (qa-inji1)",
+          "title": "Download StayProtected Insurance Credentials (qainji)",
           "description": "Download insurance credential"
         }
       ],
@@ -38,7 +38,7 @@
             "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "Mock Identity (qa-inji1)",
+          "title": "Mock Identity (qainji)",
           "description": "Download Mock Identity Credential",
           "language": "en"
         }
@@ -65,7 +65,7 @@
             "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "Mobile Driving License PDI (qa-inji1)",
+          "title": "Mobile Driving License PDI (qainji)",
           "description": "Download Mobile Driving License Credential",
           "language": "en"
         }
@@ -119,7 +119,7 @@
             "url": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "land-logo"
           },
-          "title": "Land Registry (qa-inji1)",
+          "title": "Land Registry (qainji)",
           "description": "Download Land Registry Credential",
           "language": "en"
         }
@@ -521,12 +521,12 @@
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
-          "name": "Veridonia National Identity Department (qa-inji1)",
+          "name": "Veridonia National Identity Department (qainji)",
           "logo": {
             "url": "https://inji.github.io/inji-config/logos/veridonia-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "National Identity Department (qa-inji1)",
+          "title": "National Identity Department (qainji)",
           "description": "Download Veridonia National / Foundational Identity Credential",
           "language": "en"
         },
@@ -576,7 +576,7 @@
             "url": "https://inji.github.io/inji-config/logos/veridonia-logo.png",
             "alt_text": "logo ng mosip"
           },
-          "title": "National Identity Department (qa-inji1)",
+          "title": "National Identity Department (qainji)",
           "description": "I-download ang MOSIP National / Foundational Identity Credential",
           "language": "fil"
         }
