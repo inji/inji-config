@@ -8,6 +8,7 @@ This Repository contains configurations for Inji Stack, These are the split up o
 - [credential-template.html](credential-template.html) - PDF Template for Inji Web Credential Download is mentioned here
 
 ### Mimoto
+- `mosip.inji.mdocTemplateBaseUrl` and `mosip.inji.mdocTemplates` in [inji-default.properties](inji-default.properties) - Where the mdoc card SVGs are hosted (this repository's `gh-pages` branch, `mdoc`) and which SVG each mdoc docType uses. Inji Wallet reads them through Mimoto's `allProperties`.
 - [mimoto-default.properties](mimoto-default.properties) - Default Configuration for Mimoto App is mentioned here
 - [mimoto-issuers-config.json](mimoto-issuers-config.json) - Configuration of All Supported Credential Issuers is mentioned here
 - [mimoto-trusted-verifiers.json](mimoto-trusted-verifiers.json) - Configuration of All Trusted Credential Verifiers is mentioned here
