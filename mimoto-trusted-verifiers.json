@@ -15,12 +15,12 @@
     {
       "client_id": "mock-client",
       "redirect_uris": [
-        "https://2b6b-49-204-153-221.ngrok-free.app/"
+        "https://dbc8-49-204-153-221.ngrok-free.app/"
       ],
       "response_uris": [
-        "https://2b6b-49-204-153-221.ngrok-free.app/verifier/vp-response"
+        "https://dbc8-49-204-153-221.ngrok-free.app/verifier/vp-response"
       ],
-      "jwks_uri": "https://2b6b-49-204-153-221.ngrok-free.app/.well-known/jwks.json",
+      "jwks_uri": "https://dbc8-49-204-153-221.ngrok-free.app/.well-known/jwks.json",
       "allow_unsigned_request": true,
       "spec_version": "v1"
     },
